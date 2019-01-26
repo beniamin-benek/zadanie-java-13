@@ -22,6 +22,8 @@ public class Main {
             System.out.println("Podana liczba jest za duża.");
         else if (!(number % 3 == 0))
             System.out.println("Podana liczba nie jest podzielna przez 3.");
+        else
+            System.out.println("Twoja liczba jest ok.");
     }
 
 }
