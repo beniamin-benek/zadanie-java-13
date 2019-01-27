@@ -12,6 +12,7 @@ public class Main {
             number = scanner.nextInt();
             showAlert(number);
         } while (!(number > 100 && number < 200 && number % 3 == 0));
+        //lub z prawa De Morgana: (number <= 100 || number >= 200 || number % 3 =! 0) :)
 
     }
 
